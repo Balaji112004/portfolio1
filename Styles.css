@@ -525,7 +525,7 @@ body{
 
 /* Mobile view */
 /* Mobile view */
-@media(max-width: 330px) {
+@media(max-width: 480px) {
     * {
         box-sizing: border-box;
     }
