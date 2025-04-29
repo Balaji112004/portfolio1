@@ -739,7 +739,9 @@ body{
     .por {
         width: 100%;
     }
-
+     .jus p{
+         width:250px;
+     }
     .procekt {
         margin-left: 0;
         display: flex;
