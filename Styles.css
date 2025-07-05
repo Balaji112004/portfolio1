@@ -129,6 +129,7 @@ body{
     object-fit: cover;
     
     position: absolute;
+    top:10%;
     transition: 1.5s;
     
 }
