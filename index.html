@@ -134,12 +134,20 @@
         <div class="parts">
             <div class="con1">
                 
-                <form action="/contact" id="contactForm" method="POST" >
-                    <input class="Name" name="name" type="text" placeholder="Your Name" required><br>
-                    <input class="Name" name="email" type="email" placeholder="Your E-mail" required><br>
-                    <input class="Name2" name="message" type="text" placeholder="Your Message" required><br>
-                    <input class="sub" type="submit" value="Submit">
-                </form>
+<form action="https://formsubmit.co/k.balaji112004@gmail.com" method="POST" onsubmit="mes()">
+  <input class="Name" name="name" type="text" placeholder="Your Name" required><br>
+  <input class="Name" name="email" type="email" placeholder="Your E-mail" required><br>
+  <input class="Name2" name="message" type="text" placeholder="Your Message" required><br>
+
+  <!-- Optional Anti-bot Field -->
+  <input type="text" name="_honey" style="display:none">
+
+  <!-- Optional Redirect -->
+<!--   <input type="hidden" name="_next" value="https://yourdomain.com/thank-you.html"> -->
+
+  <input class="sub" type="submit" value="Submit">
+</form>
+
     
             </div>
             <div class="con2">
@@ -184,6 +192,9 @@ else{
 }
 }
 
+    function mes(){
+        alert("Message sent successfully.")
+    }
 </script>
 </html>
 
