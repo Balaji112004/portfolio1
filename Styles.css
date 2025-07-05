@@ -323,15 +323,15 @@ body{
     width: max-content;
 }
 /* card */
-#edu .card1{
+.card1{
      height: 350px;
      width: 360px;
      background-color: #25455c;
      /* border: 7px solid #00abf0; */
      border-radius: 10px;
-     transition: 1s linear;
+     transition: .20s linear;
 }
-#edu .card1:hover{
+.card1:hover{
     transform: scale(1.05,1.05);
 }
 .paraa h1{
@@ -400,7 +400,7 @@ body{
     /* border: 5px solid #00abf0; */
     background-color:#25455c ;
     border-radius: 10px;
-    transition:  linear;
+    transition:.20s  linear;
 }
 .pro1:hover{
     transform: scale(1.03,1.03);
