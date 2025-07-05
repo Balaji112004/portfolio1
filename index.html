@@ -134,7 +134,7 @@
         <div class="parts">
             <div class="con1">
                 
-<form action="https://formsubmit.co/k.balaji112004@gmail.com" method="POST" onsubmit="mes()">
+<form action="https://formsubmit.co/k.balaji112004@gmail.com" method="POST" onsubmit="mes(e)">
   <input class="Name" name="name" type="text" placeholder="Your Name" required><br>
   <input class="Name" name="email" type="email" placeholder="Your E-mail" required><br>
   <input class="Name2" name="message" type="text" placeholder="Your Message" required><br>
@@ -192,7 +192,8 @@ else{
 }
 }
 
-    function mes(){
+    function mes(e){
+        e.preventDefault();
         alert("Message sent successfully.")
     }
 </script>
