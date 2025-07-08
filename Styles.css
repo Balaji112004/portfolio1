@@ -529,6 +529,9 @@ body{
 /* Mobile view */
 /* Mobile view */
 @media(max-width: 480px) {
+    .upper,.slide-left,.slide-right{
+        animation:none;
+    }
     * {
         box-sizing: border-box;
     }
