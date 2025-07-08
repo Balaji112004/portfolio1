@@ -526,6 +526,74 @@ body{
     left:4px;
 }
 
+
+/* Animations */
+
+@keyframes slide{
+    0%{
+        opacity: 0;
+        transform: translateX(-150px);
+        /* scale: 0.5; */
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0px);
+        /* scale: 1 ; */
+    }
+}
+.slide-left{
+    animation:slide linear;
+    animation-timeline: view();
+    animation-range:entry 0% cover 40% ;
+}
+
+
+@keyframes slide2{
+    0%{
+        opacity: 0;
+        transform: translateX(150px);
+        /* scale: 0.5; */
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0px);
+        /* scale: 1 ; */
+    }
+}
+.slide-right{
+    animation:slide2 linear;
+    animation-timeline: view();
+    animation-range:entry 0% cover 40% ;
+}
+
+
+@keyframes down-upper{
+    from{
+        opacity: 0;
+        transform: translateY(150px);
+        /* scale: 0.5; */
+ 
+        /* clip-path: inset(100% 100% 0 0); */
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0px);
+        /* scale: 1 ; */
+
+        /* clip-path: (0 0 0 0); */
+    }
+}
+.upper{
+    animation:down-upper linear;
+    animation-timeline: view();
+    animation-range:entry 0% cover 40% ;
+}
+
+
+
+
+
+
 /* Mobile view */
 /* Mobile view */
 @media(max-width: 480px) {
@@ -829,70 +897,5 @@ body{
         padding-top: 10px;
     }
 }
-
-
-
-/* Animations */
-
-@keyframes slide{
-    0%{
-        opacity: 0;
-        transform: translateX(-150px);
-        /* scale: 0.5; */
-    }
-    100%{
-        opacity: 1;
-        transform: translateX(0px);
-        /* scale: 1 ; */
-    }
-}
-.slide-left{
-    animation:slide linear;
-    animation-timeline: view();
-    animation-range:entry 0% cover 40% ;
-}
-
-
-@keyframes slide2{
-    0%{
-        opacity: 0;
-        transform: translateX(150px);
-        /* scale: 0.5; */
-    }
-    100%{
-        opacity: 1;
-        transform: translateX(0px);
-        /* scale: 1 ; */
-    }
-}
-.slide-right{
-    animation:slide2 linear;
-    animation-timeline: view();
-    animation-range:entry 0% cover 40% ;
-}
-
-
-@keyframes down-upper{
-    from{
-        opacity: 0;
-        transform: translateY(150px);
-        /* scale: 0.5; */
- 
-        /* clip-path: inset(100% 100% 0 0); */
-    }
-    to{
-        opacity: 1;
-        transform: translateY(0px);
-        /* scale: 1 ; */
-
-        /* clip-path: (0 0 0 0); */
-    }
-}
-.upper{
-    animation:down-upper linear;
-    animation-timeline: view();
-    animation-range:entry 0% cover 40% ;
-}
-
 
 
