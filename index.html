@@ -13,11 +13,15 @@
 <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script> -->
 
+<!-- Animate On Scroll -->
+ <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 </head>
 <body>
     <header class="header">
-<!--         <a href="#" class="logo ">Portfolio</a> -->
-            <img src="./img/logoo2.PNG" class="logo mar" height="55px">
+        <!-- <a href="#" class="logo">Balaji.dev </a> -->
+        <img src="./img/logoo2.PNG" class="logo mar" height="55px">
+        <!-- <span> <i class='bx bx-happy-beaming sp'></i> Balaji.dev</span> -->
         <nav class="navbar">
             <a href="#" class="active">Home</a>
             <a href="#about">About</a>
@@ -41,7 +45,7 @@
 <!-- Home  page -->
     <section id="home1">
         
-            <div class="profile_image">
+            <div class="profile_image" >
                 <img src="./dp.png" alt="" >
             </div> 
 
@@ -65,22 +69,23 @@
 
     <!-- About page -->
      <section id="about">
-        <h1 class="slide-left">About me</h1>
+        <!-- class="slide-left" -->
+        <h1 data-aos="fade-right" data-aos-delay="100" data-aos-duration="1200">About me</h1>
             <div class="about_flex">
-                <div class="about-flex1 upper">
+                <div class="about-flex1">
                     <ul>
-                        <li class="upper">I am currently pursuing my final year Bachelor's Degree in Computer Science and Engineering.I have built a solid foundation in software development, particularly in areas such as Python, Java, SQL, Git, and GitHub.</li>
-                        <li class="upper">My expertise in these areas allows me to approach projects with confidence and deliver high-quality results.I have a strong belief in the value of continuous learning and staying adaptable in the ever-evolving world of software engineering.</li>
-                        <li class="upper">I actively seek out opportunities to expand my knowledge and skills, embracing new technologies and approaches.Feel free to explore my work and get in touch if you have any questions or opportunities to collaborate.</li>
+                        <li data-aos="fade-up" data-aos-duration="1200">I am currently pursuing my final year Bachelor's Degree in Computer Science and Engineering.I have built a solid foundation in software development, particularly in areas such as Python, Java, SQL, Git, and GitHub.</li>
+                        <li data-aos="fade-up" data-aos-duration="1200"> My expertise in these areas allows me to approach projects with confidence and deliver high-quality results.I have a strong belief in the value of continuous learning and staying adaptable in the ever-evolving world of software engineering.</li>
+                        <li data-aos="fade-up" data-aos-duration="1200">I actively seek out opportunities to expand my knowledge and skills, embracing new technologies and approaches.Feel free to explore my work and get in touch if you have any questions or opportunities to collaborate.</li>
                     </ul>
                 </div> 
      </section>
 
      <!-- Education -->
       <section id="edu">
-        <h1 class="head slide-left">Internships</h1>
+        <h1 class="head" data-aos="fade-right" data-aos-delay="100" data-aos-duration="1200">Internships</h1>
         <div class="in">
-            <div class="card1 slide-left">
+            <div class="card1" data-aos="fade-up">
                 <a href="https://www.linkedin.com/posts/balaji-kanthan-8b2b50283_certificate-of-completion-for-prodigy-internship-activity-7260202336826884098-t0SH?utm_source=share&utm_medium=member_desktop"><img src="./Internships/Prodigy.png" alt=""></a>
                 <div class="paraa">
                     <h1>Prodigy Infotech</h1>
@@ -88,7 +93,7 @@
                     <h4>Oct 2024</h4>
                 </div>
             </div>
-            <div class="card1 upper">
+            <div class="card1" data-aos="fade-up" data-aos-delay="200">
                 <a href="https://www.linkedin.com/posts/balaji-kanthan-8b2b50283_web-development-internship-activity-7239958450263220226-djtc?utm_source=share&utm_medium=member_desktop"><img src="./Internships/IDA.png" alt=""></a>
                 <div class="paraa">
                     <h1>IDA Creations</h1>
@@ -96,7 +101,7 @@
                     <h4>July 2024</h4>
                 </div>
             </div>
-            <div class="card1 slide-right">
+            <div class="card1" data-aos="fade-up" data-aos-delay="400">
                 <a href="https://www.linkedin.com/posts/balaji-kanthan-8b2b50283_fullstackdevelopment-internship-careerdevelopment-activity-7110522058291232768-Wacl?utm_source=share&utm_medium=member_desktop"><img src="./Internships/Retech.png" alt=""></a>
                 <div class="paraa">
                     <h1>Retech Solution</h1>
@@ -110,9 +115,9 @@
 
       <!-- Projects -->
     <section id="projects">
-        <h1 class="slide-left">Projects</h1>
+        <h1 data-aos="fade-right" data-aos-delay="100" data-aos-duration="1200">Projects</h1>
         <div class="procekt">
-           <div class="pro1 slide-left">
+           <div class="pro1" data-aos="fade-up">
                 <a href="https://www.linkedin.com/posts/balaji-kanthan-8b2b50283_fullstackdevelopment-nodejs-mongodb-activity-7259625704420433922-I0O2?utm_source=share&utm_medium=member_desktop"><img src="./Projects/Employee_management.png" alt=""></a>
                 <div class="jus">
                     <h2>Employee Management System</h2>
@@ -120,7 +125,7 @@
                         records.</p>
                 </div>
             </div>
-            <div class="pro1 sma slide-right">
+            <div class="pro1 sma" data-aos="fade-up" data-aos-delay="200">
                 <a href="https://www.linkedin.com/posts/balaji-kanthan-8b2b50283_webdevelopment-javascript-nodejs-activity-7259628367727984642-L6zu?utm_source=share&utm_medium=member_desktop"><img src="./Projects/Chat_room.png" alt=""></a>
                 <div class="jus">
                     <h2>Chat Application</h2>
@@ -133,25 +138,25 @@
     <section id="contact">
         <h1 class="slide-left">Contact</h1>
         <div class="parts">
-            <div class="con1 slide-left">
+            <div class="con1" data-aos="zoom-in-right" data-aos-delay="100" data-aos-duration="1000">
                 
-<form action="https://formsubmit.co/6ddb3aae3e20f346940992938716b06a" method="POST" onsubmit="mes(e)">
-  <input class="Name" name="Name" type="text" placeholder="Your Name" required><br>
-  <input class="Name" name="E-mail" type="email" placeholder="Your E-mail" required><br>
-  <input class="Name2" name="Message" type="text" placeholder="Your Message" required><br>
+            <form action="https://formsubmit.co/k.balaji112004@gmail.com" method="POST" onsubmit="mes(e)">
+  <input class="Name" name="name" type="text" placeholder="Your Name" required><br>
+  <input class="Name" name="email" type="email" placeholder="Your E-mail" required><br>
+  <input class="Name2" name="message" type="text" placeholder="Your Message" required><br>
 
   <!-- Optional Anti-bot Field -->
   <input type="text" name="_honey" style="display:none">
 
   <!-- Optional Redirect -->
-<!--   <input type="hidden" name="_next" value="https://yourdomain.com/thank-you.html"> -->
+  <input type="hidden" name="_next" value="https://yourdomain.com/thank-you.html">
 
   <input class="sub" type="submit" value="Submit">
 </form>
 
     
             </div>
-            <div class="con2 slide-right">
+            <div class="con2" data-aos="zoom-in-left" data-aos-delay="100" data-aos-duration="1000">
                 <img src="./img/contact.png" alt="" height="500px" width="500px">
             </div>
         </div>
@@ -175,8 +180,15 @@
             <i class='bx bx-up-arrow-alt'></i>
         </div>
     </a>
+
+    <!-- Animate on scroll Js -->
+     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </body>
+
 <script>
+    // Animate on Scroll initiate
+    AOS.init();
+
     var icon=document.querySelector('.con');
     var sala=document.querySelector('#sala');
     var show=document.querySelector('.display');
@@ -193,10 +205,11 @@ else{
 }
 }
 
-    function mes(e){
-        e.preventDefault();
-        alert("Message sent successfully.")
-    }
+function mes(e){
+    e.preventDefault();
+    alert("Sent Successfully.")
+}
 </script>
 </html>
+
 
