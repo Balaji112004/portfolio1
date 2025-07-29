@@ -946,6 +946,9 @@ body{
 /* check */
 /* Menu container */
 .display {
+    height:700px;
+/*     checking height
+    */
     position: absolute;
     top: 60px; /* adjust depending on navbar height */
     /* right: 20px; */
