@@ -884,7 +884,8 @@ body{
     }
 
     .st>i {
-    padding-left: 4.8px;
+/*     padding-left: 4.8px; */
+        padding:3px 0px 0px 4.5px;
     /* padding-top: 2px; */
     }
 
@@ -954,7 +955,7 @@ body{
 /* Menu container */
 .display {
     position: absolute;
-    height:auto;
+    height:700px;
     top: 60px;
      /* adjust depending on navbar height */
     /* right: 20px; */
